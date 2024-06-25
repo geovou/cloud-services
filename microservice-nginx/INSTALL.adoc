@@ -1,0 +1,22 @@
+# Installation instructions
+
+## Requirements to run the project
+
+* Docker
+* Docker Compose
+* Git
+
+## Steps
+
+1. Clone the repository:
+git clone https://github.com/geovou/cloud-services.git
+cd cloud-services/microservice-nginx
+
+2. Run the setup script:
+./scripts/setup.sh
+
+3. Access the Nginx service by going to `http://localhost:8080` in your web browser.
+
+## Troubleshooting
+
+If you encounter any issues, ensure that Docker and Docker Compose are correctly installed and running.

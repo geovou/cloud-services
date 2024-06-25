@@ -1,0 +1,33 @@
+# Nginx Microservice
+
+## Overview
+This project sets up an nginx web server using Docker. It includes a custom configuration and serves static files.
+
+## Features
+- Lab has its own network.
+- Storage Space
+- Automatic service execution.
+- Resource configuration for Out Of Memory Exceptions (OOME).
+
+## Services
+- Nginx: A high-performance web server.
+
+## Technologies
+- Docker
+- Docker Compose
+
+## Project Structure
+
+* `Dockerfile` - Dockerfile for building the Nginx image.
+* `default.conf` - Custom Nginx configuration file.
+* `docker-compose.yml` - Defines the services, networks, and volumes.
+* `html/` - Contains HTML files to be served by Nginx.
+* `scripts/` - Contains setup scripts.
+* `README.adoc` - This file, gives an overview of the project.
+* `INSTALL.adoc` - Instructions on how to install and run the virtual lab.
+
+## HowTo use it
+
+1. Clone the repository: `git clone https://github.com/geovou/cloud-services.git`
+2. Navigate to the project directory: `cd cloud-services/microservice-nginx`
+3. Follow the instructions in the `INSTALL.adoc` file to set up and run the virtual lab.
